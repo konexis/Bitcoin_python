@@ -1,7 +1,6 @@
 import requests
 from twilio.rest import Client
 import os
-from infos import *
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 sched = BlockingScheduler()
