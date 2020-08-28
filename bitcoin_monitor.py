@@ -4,7 +4,7 @@ import os
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 sched = BlockingScheduler()
-account_sid = os.environ['ACCOUNT_SID ']
+account_sid = os.environ['ACCOUNT_SID']
 auth_token = os.environ['AUTH_TOKEN']
 to_number = os.environ['TELEPHONE_NUMBER']
 
